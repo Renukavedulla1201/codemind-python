@@ -5,7 +5,7 @@ while(m>0):
     r=m%10
     s+=r
     m=m//10
-if n==s:
+if s==n:
     print('Neon Number')
 else:
     print('Not Neon Number')
