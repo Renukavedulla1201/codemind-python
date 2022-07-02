@@ -1,7 +1,7 @@
 n=int(input())
 a=[0]*n
 d=k=e=b=0
-for i in range(2,n+1):
+for i in range (2,n+1):
     d=0
     for j in range(2,i):
         if i%j==0:
